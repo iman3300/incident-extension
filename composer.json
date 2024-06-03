@@ -1,0 +1,16 @@
+{
+  "config": {
+    "classmap-authoritative": true
+  },
+  "autoload": {
+    "psr-4": {
+      "OA\\iTop\\Extension\\": "src"
+    }
+  },
+  "name": "oa/incident-extension",
+  "type": "itop-extension",
+  "description": "Cost",
+  "require": {
+    "composer-runtime-api": "^2.0"
+  }
+}
